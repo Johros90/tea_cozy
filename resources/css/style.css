@@ -62,20 +62,25 @@ header a {
 /* Tea of the month */
 .teamonth {
   width: 1000px;
-  background-color: white;
   justify-content: center;
   flex-flow: wrap;
   margin: auto;
 }
 .minimonth {
   width: 300px;
-  height: 200px;
-  margin: 10px 25px;
-  background-color: blue;
+  margin: 0px 25px;
 }
+/*always correct margin, incase of more or less "minimonths"*/
 .minimonth:nth-child(3n+1) {
   margin-left: 0px;
 }
- .minimonth:nth-child(3n+3), .minimonth:last-child {
-   margin-right: 0px;
- }
+.minimonth:nth-child(3n+3), .minimonth:last-child {
+ margin-right: 0px;
+}
+.minimonth img {
+  /*width: inherit;*/
+  height: 200px;
+}
+.minimonth h4 {
+  margin: 10px;
+}
