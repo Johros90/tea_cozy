@@ -53,6 +53,7 @@ header a {
   width: 1200px;
   margin: auto;
   padding-top: 70px;
+  margin-bottom: 70px;
 }
 .mission {
   height: 700px;
@@ -62,6 +63,7 @@ header a {
 }
 .mission .content {
   background-color: black;
+  opacity: 0.9;
   width: 100%;
 }
 /* Tea of the month */
@@ -73,7 +75,7 @@ header a {
 }
 .minimonth {
   width: 300px;
-  margin: 0px 25px;
+  margin: 10px 25px;
 }
 /*always correct margin, incase of more or less "minimonths"*/
 .minimonth:nth-child(3n+1) {
@@ -83,11 +85,7 @@ header a {
  margin-right: 0px;
 }
 .minimonth img {
-  /*width: inherit;*/
   height: 200px;
-}
-.minimonth h4 {
-  margin: 10px;
 }
 /*Location section*/
 .location {
