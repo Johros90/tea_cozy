@@ -1,4 +1,4 @@
-/* for testing
+/*for testing/
 * {
   border: 1px solid red;
 }*/
@@ -10,12 +10,17 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-
+}
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
 }
 /*General purpose classes */
 .flex-container {
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 .anchor {
   display: block;
@@ -63,7 +68,7 @@ header a {
 .teamonth {
   width: 1000px;
   justify-content: center;
-  flex-flow: wrap;
+  flex-wrap: wrap;
   margin: auto;
 }
 .minimonth {
@@ -83,4 +88,25 @@ header a {
 }
 .minimonth h4 {
   margin: 10px;
+}
+/*Location section*/
+.location {
+  width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  padding-top: 70px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+}
+.vertical {
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
+.adress {
+  background-color: black;
+  padding: 5px 20px;
+  width: 300px;
+  margin: 5px 20px;
 }
